@@ -1,0 +1,22 @@
+:root {
+  --primary-main-color: #085c8c;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-main-color);
+  border-radius: 0 0 10px 10px;
+}
+
+hr {
+  border-top: 1px solid var(--primary-main-color);
+}
